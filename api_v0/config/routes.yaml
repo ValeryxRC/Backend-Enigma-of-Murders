@@ -1,0 +1,12 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+
+about_us:
+    path: /api/about
+    controller: App\Controller\AboutUsController::about
+
+contact: 
+    path: /api/contact
+    controller: App\Controller\AboutUsController::contact
